@@ -335,8 +335,27 @@ my_dist
 ```
 
 .center[
-![:scale 70%](img/distributional.png)
+![:scale 65%](img/distributional.png)
 ]
+
+---
+
+# correlation
+
+Methods for correlation analysis
+
+- Part of the **easystats** ecosystem of packages
+- https://easystats.github.io/correlation/
+
+.center[
+![:scale 60%](img/correlation.png)
+]
+
+---
+
+class: inverse, center, middle
+
+More at 
 
 ---
 
