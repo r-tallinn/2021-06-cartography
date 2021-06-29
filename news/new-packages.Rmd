@@ -1,0 +1,30 @@
+---
+title: "Download statistics for packages released on CRAN between 2020-01-01 to 2021-06-01"
+output: 
+  html_document:
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(DT)
+library(readr)
+```
+
+[Downlad the data (CSV)](https://raw.githubusercontent.com/r-tallinn/2021-06-cartography/master/r-trending/data/new-packages.csv).
+
+```{r, echo=FALSE, message=FALSE}
+table_data <- read_csv("data/new-packages.csv")
+datatable(
+  table_data, 
+  rownames = FALSE,
+  extensions = "Responsive",
+  options = list(pageLength = 50),
+  # set element ID, otherwise it will change on git each time
+  elementId = "htmlwidget-table"
+)
+```
+
+
+
+
