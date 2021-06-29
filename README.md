@@ -15,4 +15,4 @@ page](https://www.meetup.com/r-tallinn/events/278721182/)
 
 [Alexander Matrunich: _Building spatial heatmaps with limited tooling](http://rpubs.com/malexan/heatmaps)
 
-[Anto Aasa](https://r-tallinn.github.io/2021-06-cartography/rspatial.pdf)
+[Anto Aasa: _R for maps & spatial analysis_](https://r-tallinn.github.io/2021-06-cartography/rspatial.pdf)
